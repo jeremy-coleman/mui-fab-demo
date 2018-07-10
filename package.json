@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "author": "jeremy coleman",
-  "repo":"github.com/jeremy-coleman/mui-fab-demo",
+  "repository":"github.com/jeremy-coleman/mui-fab-demo",
   "dependencies": {
     "@material-ui/core": "^1.3.1",
     "@material-ui/icons": "^1.1.0",
