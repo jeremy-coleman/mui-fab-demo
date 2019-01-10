@@ -1,0 +1,12 @@
+
+35kb base
+mobx - 20kb gzip (55kb)
+rxjs 10kb (46kb)
+undux 12kb (42kb)
+typestyle 4kb(39kb) bundled
+when-switch = .1kb lol
+redux / react-connect 6kb(41kb)
+@emotion/styled - 9kb(44kb)
+glamor-jss +20kb wtf
+@material/styles (using styled only, no actual styles) - 16kb gzip
+4kb(39kb) for styled, createComponent, and mergeStylesets from the @uifabric libs

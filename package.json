@@ -1,0 +1,56 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": false,
+  "author": "jeremy coleman",
+  "repository": "github.com/jeremy-coleman/mui-fab-demo",
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject",
+    "serve": "serve -s build"
+  },
+  "dependencies": {
+    "@babel/runtime": "7.2.0",
+    "@emotion/core": "10.0.5",
+    "@emotion/styled": "10.0.5",
+    "axios": "0.18.0",
+    "immer": "^1.10.0",
+    "mobx": "5.8.0",
+    "mobx-logger": "0.7.1",
+    "mobx-react": "5.4.3",
+    "mobx-utils": "5.1.0",
+    "office-ui-fabric-react": "^6.121.0",
+    "prop-types": "15.6.2",
+    "qs": "6.6.0",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "reflect-metadata": "0.1.12",
+    "rxjs": "^6.3.3",
+    "style-module": "^1.0.0",
+    "three": "0.98.0",
+    "tslib": "1.9.3",
+    "typestyle": "2.0.1",
+    "undux": "^5.0.0-beta.19",
+    "when-switch": "^0.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@types/chrome": "^0.0.77",
+    "@types/lodash-es": "^4.17.1",
+    "@types/node": "10.12.18",
+    "@types/prop-types": "15.5.6",
+    "@types/qs": "^6.5.1",
+    "@types/react": "16.7.18",
+    "@types/react-dom": "16.0.11",
+    "node-sass": "4.10.0",
+    "react-scripts-ts": "4.0.8",
+    "typescript": "3.2.2"
+  },
+  "browserslist": [
+    "Last 2 Chrome versions"
+  ]
+}
