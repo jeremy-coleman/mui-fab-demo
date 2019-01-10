@@ -1,0 +1,41 @@
+{
+  "name": "office-ui-fabric-react-repo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "yarn rollit && yarn gendts",
+    "tsout": "tsc",
+    "transpile-temp": "tsc --outDir _temp",
+    "rollit": "rollup -c rollup.pkg.js",
+    "roll-minify":"rollup -c rollup.min.js",
+    "gendts": "dts-bundle-generator -o lib/index.d.ts src/index.ts"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.2",
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "16.0.11",
+    "dts-bundle-generator": "2.0.0",
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "rollup": "1.1.0",
+    "rollup-plugin-auto-external": "2.0.0",
+    "rollup-plugin-terser": "4.0.1",
+    "rollup-plugin-typescript2": "0.18.1",
+    "tslib": "1.9.3",
+    "typescript": "^3.2.2"
+  }
+}
